@@ -5,7 +5,7 @@ local clock = Clock:new(nil)
 
 local function PrintClock(clock)
     os.execute("cls")
-    print("Clock: ")
+    print("Timer: ")
     print(clock:GetCurrentTime())
 end
 
